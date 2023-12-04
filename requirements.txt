@@ -95,7 +95,7 @@ soxr==0.3.5
 sqlparse==0.4.4
 stack-data==0.6.2
 statsmodels==0.14.0
-streamlit==1.24.0
+streamlit==1.29.0
 streamlit-agraph==0.0.45
 streamlit-option-menu==0.3.6
 sympy==1.12

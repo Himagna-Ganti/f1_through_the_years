@@ -1,5 +1,5 @@
-from email.policy import default
-from turtle import fillcolor
+
+
 
 import streamlit as st
 import plotly.express as px
@@ -24,17 +24,17 @@ opt= option_menu(menu_title=None,icons=['','',''],options=['Home','First Vis','S
 
 
 if opt=='Home':
-    st.markdown('# F1 THROUGH THE YEARS')
+    st.markdown('# :red[F1 THROUGH THE YEARS]')
     st.markdown('---')
     st.markdown('##### This visualisation aims at extracting useful information from datasets pertaining to F1 races and displays them using various interactive various visualisations.  The reason this project exists is to show some key facts about F1 for anyone who needs immediate access to these stats. There are mainly 3 visualisations at the moment that are up and running in real time for you to explore.  ')
     st.markdown('##')
-    st.markdown('#### AROUND THE WORLD IN 20 RACES:')
+    st.markdown('#### :red[AROUND THE WORLD IN 20 RACES]:')
     st.markdown('##### This visualisation tries to tell the story of the extreme logistics involved in F1, wherein there are races in 6 of the 7 continents every year spanning about 19-20 races which is where the name of the visualisation comes from. ')
     st.markdown('##')
-    st.markdown('#### FASTEST FRONT-RUNNERS:')
+    st.markdown('#### :red[FASTEST FRONT-RUNNERS]:')
     st.markdown('##### F1 is the pinnacle of motorsporting. The speeds touched by an F1 machine are like any other and the cars are only getting better and better. This visualisation shows you how the __fastest__ __lap__ __times__ of a particular race track has changed over the years.  ')
     st.markdown('##')
-    st.markdown('#### GOAT:')
+    st.markdown('#### :red[GOAT]:')
     st.markdown('##### Not just Greatest of all time but also Greatest of a specified time. This visualisation queries the number of wins secured by a particular driver in a given time period and displays the top 5 drivers of that time period.')
 elif opt=='First Vis':
 
