@@ -1,0 +1,378 @@
+raceId,year,name,driverId,constructorId,fastestLapTime,fastestLapSpeed,stringTime,FullName
+97.0,2004.0,Canadian Grand Prix,22.0,6.0,1:13.622,213.246,113622.0,Rubens Barrichello
+98.0,2004.0,United States Grand Prix,22.0,6.0,1:10.399,214.366,110399.0,Rubens Barrichello
+104.0,2004.0,Italian Grand Prix,22.0,6.0,1:21.046,257.32,121046.0,Rubens Barrichello
+106.0,2004.0,Japanese Grand Prix,22.0,6.0,1:32.730,225.441,132730.0,Rubens Barrichello
+3.0,2009.0,Chinese Grand Prix,22.0,23.0,1:52.592,174.289,152592.0,Rubens Barrichello
+5.0,2009.0,Spanish Grand Prix,22.0,23.0,1:22.762,202.484,122762.0,Rubens Barrichello
+91.0,2004.0,Malaysian Grand Prix,31.0,3.0,1:34.223,211.782,134223.0,Juan Pablo Montoya
+107.0,2004.0,Brazilian Grand Prix,31.0,3.0,1:11.473,217.038,111473.0,Juan Pablo Montoya
+84.0,2005.0,Turkish Grand Prix,31.0,1.0,1:24.770,226.693,124770.0,Juan Pablo Montoya
+92.0,2004.0,Bahrain Grand Prix,30.0,6.0,1:30.252,216.074,130252.0,Michael Schumacher
+93.0,2004.0,San Marino Grand Prix,30.0,6.0,1:20.411,220.85,120411.0,Michael Schumacher
+94.0,2004.0,Spanish Grand Prix,30.0,6.0,1:17.450,215.07,117450.0,Michael Schumacher
+95.0,2004.0,Monaco Grand Prix,30.0,6.0,1:14.439,161.528,114439.0,Michael Schumacher
+96.0,2004.0,European Grand Prix,30.0,6.0,1:29.468,207.144,129468.0,Michael Schumacher
+99.0,2004.0,French Grand Prix,30.0,6.0,1:15.377,210.669,115377.0,Michael Schumacher
+90.0,2004.0,Australian Grand Prix,30.0,6.0,1:24.125,226.933,124125.0,Michael Schumacher
+102.0,2004.0,Hungarian Grand Prix,30.0,6.0,1:19.071,199.461,119071.0,Michael Schumacher
+105.0,2004.0,Chinese Grand Prix,30.0,6.0,1:32.238,212.749,132238.0,Michael Schumacher
+100.0,2004.0,British Grand Prix,30.0,6.0,1:18.739,235.049,118739.0,Michael Schumacher
+74.0,2005.0,San Marino Grand Prix,30.0,6.0,1:21.858,216.946,121858.0,Michael Schumacher
+76.0,2005.0,Monaco Grand Prix,30.0,6.0,1:15.842,158.54,115842.0,Michael Schumacher
+79.0,2005.0,United States Grand Prix,30.0,6.0,1:11.497,211.074,111497.0,Michael Schumacher
+57.0,2006.0,European Grand Prix,30.0,6.0,1:32.099,201.226,132099.0,Michael Schumacher
+59.0,2006.0,Monaco Grand Prix,30.0,6.0,1:15.143,160.014,115143.0,Michael Schumacher
+63.0,2006.0,French Grand Prix,30.0,6.0,1:17.111,205.931,117111.0,Michael Schumacher
+64.0,2006.0,German Grand Prix,30.0,6.0,1:16.357,215.65,116357.0,Michael Schumacher
+66.0,2006.0,Turkish Grand Prix,30.0,6.0,1:28.005,218.36,128005.0,Michael Schumacher
+70.0,2006.0,Brazilian Grand Prix,30.0,6.0,1:12.162,214.966,112162.0,Michael Schumacher
+62.0,2006.0,United States Grand Prix,30.0,6.0,1:12.719,207.527,112719.0,Michael Schumacher
+869.0,2012.0,German Grand Prix,30.0,131.0,1:18.725,209.163,118725.0,Michael Schumacher
+101.0,2004.0,German Grand Prix,8.0,1.0,1:13.780,223.182,113780.0,Kimi Räikkönen
+103.0,2004.0,Belgian Grand Prix,8.0,1.0,1:45.108,238.931,145108.0,Kimi Räikkönen
+89.0,2005.0,Chinese Grand Prix,8.0,1.0,1:33.242,210.458,133242.0,Kimi Räikkönen
+72.0,2005.0,Malaysian Grand Prix,8.0,1.0,1:35.483,208.987,135483.0,Kimi Räikkönen
+78.0,2005.0,Canadian Grand Prix,8.0,1.0,1:14.384,211.061,114384.0,Kimi Räikkönen
+80.0,2005.0,French Grand Prix,8.0,1.0,1:16.423,207.785,116423.0,Kimi Räikkönen
+88.0,2005.0,Japanese Grand Prix,8.0,1.0,1:31.540,228.372,131540.0,Kimi Räikkönen
+85.0,2005.0,Italian Grand Prix,8.0,1.0,1:21.504,255.874,121504.0,Kimi Räikkönen
+87.0,2005.0,Brazilian Grand Prix,8.0,1.0,1:12.268,214.651,112268.0,Kimi Räikkönen
+83.0,2005.0,Hungarian Grand Prix,8.0,1.0,1:21.219,194.186,121219.0,Kimi Räikkönen
+82.0,2005.0,German Grand Prix,8.0,1.0,1:14.873,219.924,114873.0,Kimi Räikkönen
+81.0,2005.0,British Grand Prix,8.0,1.0,1:20.502,229.902,120502.0,Kimi Räikkönen
+61.0,2006.0,Canadian Grand Prix,8.0,1.0,1:15.841,207.006,115841.0,Kimi Räikkönen
+67.0,2006.0,Italian Grand Prix,8.0,1.0,1:22.559,252.604,122559.0,Kimi Räikkönen
+55.0,2006.0,Australian Grand Prix,8.0,1.0,1:26.045,221.869,126045.0,Kimi Räikkönen
+52.0,2007.0,Brazilian Grand Prix,8.0,6.0,1:12.445,214.126,112445.0,Kimi Räikkönen
+36.0,2007.0,Australian Grand Prix,8.0,6.0,1:25.235,223.978,125235.0,Kimi Räikkönen
+44.0,2007.0,British Grand Prix,8.0,6.0,1:20.638,229.514,120638.0,Kimi Räikkönen
+46.0,2007.0,Hungarian Grand Prix,8.0,6.0,1:20.047,197.029,120047.0,Kimi Räikkönen
+47.0,2007.0,Turkish Grand Prix,8.0,6.0,1:27.295,220.136,127295.0,Kimi Räikkönen
+42.0,2007.0,United States Grand Prix,8.0,6.0,1:13.117,206.397,113117.0,Kimi Räikkönen
+21.0,2008.0,Spanish Grand Prix,8.0,6.0,1:21.670,205.191,121670.0,Kimi Räikkönen
+22.0,2008.0,Turkish Grand Prix,8.0,6.0,1:26.506,222.144,126506.0,Kimi Räikkönen
+23.0,2008.0,Monaco Grand Prix,8.0,6.0,1:16.689,156.789,116689.0,Kimi Räikkönen
+24.0,2008.0,Canadian Grand Prix,8.0,6.0,1:17.387,202.871,117387.0,Kimi Räikkönen
+25.0,2008.0,French Grand Prix,8.0,6.0,1:16.630,207.224,116630.0,Kimi Räikkönen
+28.0,2008.0,Hungarian Grand Prix,8.0,6.0,1:21.195,194.243,121195.0,Kimi Räikkönen
+30.0,2008.0,Belgian Grand Prix,8.0,6.0,1:47.930,233.618,147930.0,Kimi Räikkönen
+31.0,2008.0,Italian Grand Prix,8.0,6.0,1:28.047,236.859,128047.0,Kimi Räikkönen
+32.0,2008.0,Singapore Grand Prix,8.0,6.0,1:45.599,172.74,145599.0,Kimi Räikkönen
+26.0,2008.0,British Grand Prix,8.0,6.0,1:32.150,200.842,132150.0,Kimi Räikkönen
+868.0,2012.0,British Grand Prix,8.0,208.0,1:34.661,224.037,134661.0,Kimi Räikkönen
+861.0,2012.0,Malaysian Grand Prix,8.0,208.0,1:40.722,198.117,140722.0,Kimi Räikkönen
+896.0,2013.0,Indian Grand Prix,8.0,208.0,1:27.679,210.426,127679.0,Kimi Räikkönen
+880.0,2013.0,Australian Grand Prix,8.0,208.0,1:29.274,213.845,129274.0,Kimi Räikkönen
+905.0,2014.0,Monaco Grand Prix,8.0,6.0,1:18.479,153.212,118479.0,Kimi Räikkönen
+929.0,2015.0,Bahrain Grand Prix,8.0,6.0,1:36.311,202.294,136311.0,Kimi Räikkönen
+932.0,2015.0,Canadian Grand Prix,8.0,6.0,1:16.987,203.925,116987.0,Kimi Räikkönen
+958.0,2016.0,Hungarian Grand Prix,8.0,6.0,1:23.086,189.822,123086.0,Kimi Räikkönen
+969.0,2017.0,Australian Grand Prix,8.0,6.0,1:26.538,220.605,126538.0,Kimi Räikkönen
+972.0,2017.0,Russian Grand Prix,8.0,6.0,1:36.844,217.388,136844.0,Kimi Räikkönen
+997.0,2018.0,Austrian Grand Prix,8.0,6.0,1:06.957,232.16,106957.0,Kimi Räikkönen
+71.0,2005.0,Australian Grand Prix,4.0,4.0,1:25.683,222.807,125683.0,Fernando Alonso
+77.0,2005.0,European Grand Prix,4.0,4.0,1:30.711,204.305,130711.0,Fernando Alonso
+60.0,2006.0,British Grand Prix,4.0,4.0,1:21.599,226.811,121599.0,Fernando Alonso
+56.0,2006.0,San Marino Grand Prix,4.0,4.0,1:24.569,211.098,124569.0,Fernando Alonso
+68.0,2006.0,Chinese Grand Prix,4.0,4.0,1:37.586,201.09,137586.0,Fernando Alonso
+69.0,2006.0,Japanese Grand Prix,4.0,4.0,1:32.676,225.572,132676.0,Fernando Alonso
+54.0,2006.0,Malaysian Grand Prix,4.0,4.0,1:34.803,210.487,134803.0,Fernando Alonso
+40.0,2007.0,Monaco Grand Prix,4.0,1.0,1:15.284,159.715,115284.0,Fernando Alonso
+41.0,2007.0,Canadian Grand Prix,4.0,1.0,1:16.367,205.58,116367.0,Fernando Alonso
+48.0,2007.0,Italian Grand Prix,4.0,1.0,1:22.871,251.653,122871.0,Fernando Alonso
+9.0,2009.0,German Grand Prix,4.0,4.0,1:33.365,198.498,133365.0,Fernando Alonso
+14.0,2009.0,Singapore Grand Prix,4.0,4.0,1:48.240,168.725,148240.0,Fernando Alonso
+353.0,2010.0,Korean Grand Prix,4.0,6.0,1:50.257,183.335,150257.0,Fernando Alonso
+351.0,2010.0,Singapore Grand Prix,4.0,6.0,1:47.976,169.137,147976.0,Fernando Alonso
+350.0,2010.0,Italian Grand Prix,4.0,6.0,1:24.139,247.861,124139.0,Fernando Alonso
+346.0,2010.0,British Grand Prix,4.0,6.0,1:30.874,233.373,130874.0,Fernando Alonso
+337.0,2010.0,Bahrain Grand Prix,4.0,6.0,1:58.287,191.706,158287.0,Fernando Alonso
+849.0,2011.0,British Grand Prix,4.0,6.0,1:34.908,223.454,134908.0,Fernando Alonso
+897.0,2013.0,Abu Dhabi Grand Prix,4.0,6.0,1:43.434,193.305,143434.0,Fernando Alonso
+888.0,2013.0,German Grand Prix,4.0,6.0,1:33.468,198.279,133468.0,Fernando Alonso
+961.0,2016.0,Italian Grand Prix,4.0,1.0,1:25.340,244.373,125340.0,Fernando Alonso
+979.0,2017.0,Hungarian Grand Prix,4.0,1.0,1:20.182,196.697,120182.0,Fernando Alonso
+75.0,2005.0,Spanish Grand Prix,21.0,4.0,1:15.641,220.213,115641.0,Giancarlo Fisichella
+73.0,2005.0,Bahrain Grand Prix,37.0,1.0,1:31.447,213.054,131447.0,Pedro de la Rosa
+86.0,2005.0,Belgian Grand Prix,23.0,7.0,1:51.453,225.329,151453.0,Ralf Schumacher
+58.0,2006.0,Spanish Grand Prix,13.0,6.0,1:16.648,217.32,116648.0,Felipe Massa
+65.0,2006.0,Hungarian Grand Prix,13.0,6.0,1:23.516,188.845,123516.0,Felipe Massa
+51.0,2007.0,Chinese Grand Prix,13.0,6.0,1:37.454,201.362,137454.0,Felipe Massa
+38.0,2007.0,Bahrain Grand Prix,13.0,6.0,1:34.067,207.12,134067.0,Felipe Massa
+39.0,2007.0,Spanish Grand Prix,13.0,6.0,1:22.680,202.685,122680.0,Felipe Massa
+45.0,2007.0,European Grand Prix,13.0,6.0,1:32.853,199.592,132853.0,Felipe Massa
+43.0,2007.0,French Grand Prix,13.0,6.0,1:16.099,208.67,116099.0,Felipe Massa
+49.0,2007.0,Belgian Grand Prix,13.0,6.0,1:48.036,233.388,148036.0,Felipe Massa
+29.0,2008.0,European Grand Prix,13.0,6.0,1:38.708,197.637,138708.0,Felipe Massa
+35.0,2008.0,Brazilian Grand Prix,13.0,6.0,1:13.736,210.377,113736.0,Felipe Massa
+33.0,2008.0,Japanese Grand Prix,13.0,6.0,1:18.426,209.456,118426.0,Felipe Massa
+6.0,2009.0,Monaco Grand Prix,13.0,6.0,1:15.154,159.991,115154.0,Felipe Massa
+851.0,2011.0,Hungarian Grand Prix,13.0,6.0,1:23.415,189.073,123415.0,Felipe Massa
+841.0,2011.0,Australian Grand Prix,13.0,6.0,1:28.947,214.631,128947.0,Felipe Massa
+906.0,2014.0,Canadian Grand Prix,13.0,3.0,1:18.504,199.984,118504.0,Felipe Massa
+53.0,2006.0,Bahrain Grand Prix,3.0,3.0,1:32.408,210.838,132408.0,Nico Rosberg
+1.0,2009.0,Australian Grand Prix,3.0,3.0,1:27.706,217.668,127706.0,Nico Rosberg
+872.0,2012.0,Italian Grand Prix,3.0,131.0,1:27.239,239.053,127239.0,Nico Rosberg
+867.0,2012.0,European Grand Prix,3.0,131.0,1:42.163,190.953,142163.0,Nico Rosberg
+911.0,2014.0,Belgian Grand Prix,3.0,131.0,1:50.511,228.161,150511.0,Nico Rosberg
+910.0,2014.0,Hungarian Grand Prix,3.0,131.0,1:25.724,183.981,125724.0,Nico Rosberg
+902.0,2014.0,Bahrain Grand Prix,3.0,131.0,1:37.020,200.816,137020.0,Nico Rosberg
+903.0,2014.0,Chinese Grand Prix,3.0,131.0,1:40.402,195.45,140402.0,Nico Rosberg
+900.0,2014.0,Australian Grand Prix,3.0,131.0,1:32.478,206.436,132478.0,Nico Rosberg
+943.0,2015.0,Mexican Grand Prix,3.0,131.0,1:20.521,192.426,120521.0,Nico Rosberg
+942.0,2015.0,United States Grand Prix,3.0,131.0,1:40.666,197.154,140666.0,Nico Rosberg
+937.0,2015.0,Belgian Grand Prix,3.0,131.0,1:52.416,224.295,152416.0,Nico Rosberg
+933.0,2015.0,Austrian Grand Prix,3.0,131.0,1:11.235,218.622,111235.0,Nico Rosberg
+927.0,2015.0,Malaysian Grand Prix,3.0,131.0,1:42.062,195.516,142062.0,Nico Rosberg
+963.0,2016.0,Malaysian Grand Prix,3.0,131.0,1:36.424,206.948,136424.0,Nico Rosberg
+949.0,2016.0,Bahrain Grand Prix,3.0,131.0,1:34.482,206.21,134482.0,Nico Rosberg
+957.0,2016.0,British Grand Prix,3.0,131.0,1:35.548,221.957,135548.0,Nico Rosberg
+951.0,2016.0,Russian Grand Prix,3.0,131.0,1:39.094,212.452,139094.0,Nico Rosberg
+954.0,2016.0,Canadian Grand Prix,3.0,131.0,1:15.599,207.669,115599.0,Nico Rosberg
+955.0,2016.0,European Grand Prix,3.0,131.0,1:46.485,202.946,146485.0,Nico Rosberg
+50.0,2007.0,Japanese Grand Prix,1.0,1.0,1:28.193,186.259,128193.0,Lewis Hamilton
+37.0,2007.0,Malaysian Grand Prix,1.0,1.0,1:36.701,206.355,136701.0,Lewis Hamilton
+34.0,2008.0,Chinese Grand Prix,1.0,1.0,1:36.325,203.722,136325.0,Lewis Hamilton
+355.0,2010.0,Abu Dhabi Grand Prix,1.0,1.0,1:41.274,197.428,141274.0,Lewis Hamilton
+354.0,2010.0,Brazilian Grand Prix,1.0,1.0,1:13.851,210.049,113851.0,Lewis Hamilton
+349.0,2010.0,Belgian Grand Prix,1.0,1.0,1:49.069,231.178,149069.0,Lewis Hamilton
+340.0,2010.0,Chinese Grand Prix,1.0,1.0,1:42.061,192.273,142061.0,Lewis Hamilton
+341.0,2010.0,Spanish Grand Prix,1.0,1.0,1:24.357,198.655,124357.0,Lewis Hamilton
+853.0,2011.0,Italian Grand Prix,1.0,1.0,1:26.187,241.971,126187.0,Lewis Hamilton
+850.0,2011.0,German Grand Prix,1.0,1.0,1:34.302,196.526,134302.0,Lewis Hamilton
+845.0,2011.0,Spanish Grand Prix,1.0,1.0,1:26.727,193.227,126727.0,Lewis Hamilton
+879.0,2012.0,Brazilian Grand Prix,1.0,1.0,1:18.069,198.701,118069.0,Lewis Hamilton
+892.0,2013.0,Italian Grand Prix,1.0,131.0,1:25.849,242.924,125849.0,Lewis Hamilton
+912.0,2014.0,Italian Grand Prix,1.0,131.0,1:28.004,236.975,128004.0,Lewis Hamilton
+913.0,2014.0,Singapore Grand Prix,1.0,131.0,1:50.417,165.137,150417.0,Lewis Hamilton
+914.0,2014.0,Japanese Grand Prix,1.0,131.0,1:51.600,187.322,151600.0,Lewis Hamilton
+917.0,2014.0,Brazilian Grand Prix,1.0,131.0,1:13.555,210.895,113555.0,Lewis Hamilton
+908.0,2014.0,British Grand Prix,1.0,131.0,1:37.176,218.239,137176.0,Lewis Hamilton
+901.0,2014.0,Malaysian Grand Prix,1.0,131.0,1:43.066,193.611,143066.0,Lewis Hamilton
+909.0,2014.0,German Grand Prix,1.0,131.0,1:19.908,206.066,119908.0,Lewis Hamilton
+938.0,2015.0,Italian Grand Prix,1.0,131.0,1:26.672,240.617,126672.0,Lewis Hamilton
+945.0,2015.0,Abu Dhabi Grand Prix,1.0,131.0,1:44.517,191.302,144517.0,Lewis Hamilton
+944.0,2015.0,Brazilian Grand Prix,1.0,131.0,1:14.832,207.296,114832.0,Lewis Hamilton
+940.0,2015.0,Japanese Grand Prix,1.0,131.0,1:36.145,217.434,136145.0,Lewis Hamilton
+934.0,2015.0,British Grand Prix,1.0,131.0,1:37.093,218.425,137093.0,Lewis Hamilton
+926.0,2015.0,Australian Grand Prix,1.0,131.0,1:30.945,209.915,130945.0,Lewis Hamilton
+928.0,2015.0,Chinese Grand Prix,1.0,131.0,1:42.208,191.996,142208.0,Lewis Hamilton
+930.0,2015.0,Spanish Grand Prix,1.0,131.0,1:28.270,189.849,128270.0,Lewis Hamilton
+960.0,2016.0,Belgian Grand Prix,1.0,131.0,1:51.583,225.969,151583.0,Lewis Hamilton
+956.0,2016.0,Austrian Grand Prix,1.0,131.0,1:08.411,227.647,108411.0,Lewis Hamilton
+953.0,2016.0,Monaco Grand Prix,1.0,131.0,1:17.939,154.135,117939.0,Lewis Hamilton
+982.0,2017.0,Singapore Grand Prix,1.0,131.0,1:45.008,173.643,145008.0,Lewis Hamilton
+977.0,2017.0,Austrian Grand Prix,1.0,131.0,1:07.411,230.597,107411.0,Lewis Hamilton
+970.0,2017.0,Chinese Grand Prix,1.0,131.0,1:35.378,205.745,135378.0,Lewis Hamilton
+971.0,2017.0,Bahrain Grand Prix,1.0,131.0,1:32.798,209.952,132798.0,Lewis Hamilton
+978.0,2017.0,British Grand Prix,1.0,131.0,1:30.621,234.025,130621.0,Lewis Hamilton
+975.0,2017.0,Canadian Grand Prix,1.0,131.0,1:14.551,210.588,114551.0,Lewis Hamilton
+973.0,2017.0,Spanish Grand Prix,1.0,131.0,1:23.593,200.471,123593.0,Lewis Hamilton
+1006.0,2018.0,United States Grand Prix,1.0,131.0,1:37.392,203.782,137392.0,Lewis Hamilton
+1002.0,2018.0,Italian Grand Prix,1.0,131.0,1:22.497,252.794,122497.0,Lewis Hamilton
+999.0,2018.0,German Grand Prix,1.0,131.0,1:15.545,217.968,115545.0,Lewis Hamilton
+1023.0,2019.0,Italian Grand Prix,1.0,131.0,1:21.779,255.014,121779.0,Lewis Hamilton
+1025.0,2019.0,Russian Grand Prix,1.0,131.0,1:35.761,219.847,135761.0,Lewis Hamilton
+1026.0,2019.0,Japanese Grand Prix,1.0,131.0,1:30.983,229.77,130983.0,Lewis Hamilton
+1030.0,2019.0,Abu Dhabi Grand Prix,1.0,131.0,1:39.283,201.387,139283.0,Lewis Hamilton
+1019.0,2019.0,British Grand Prix,1.0,131.0,1:27.369,242.735,127369.0,Lewis Hamilton
+1014.0,2019.0,Spanish Grand Prix,1.0,131.0,1:18.492,213.499,118492.0,Lewis Hamilton
+1043.0,2020.0,Emilia Romagna Grand Prix,1.0,131.0,1:15.484,234.121,115484.0,Lewis Hamilton
+1042.0,2020.0,Portuguese Grand Prix,1.0,131.0,1:18.750,212.708,118750.0,Lewis Hamilton
+1039.0,2020.0,Tuscan Grand Prix,1.0,131.0,1:18.833,239.518,118833.0,Lewis Hamilton
+1038.0,2020.0,Italian Grand Prix,1.0,131.0,1:22.746,252.033,122746.0,Lewis Hamilton
+1035.0,2020.0,70th Anniversary Grand Prix,1.0,131.0,1:28.451,239.766,128451.0,Lewis Hamilton
+1033.0,2020.0,Hungarian Grand Prix,1.0,131.0,1:16.627,205.823,116627.0,Lewis Hamilton
+1072.0,2021.0,Saudi Arabian Grand Prix,1.0,131.0,1:30.734,244.962,130734.0,Lewis Hamilton
+1069.0,2021.0,United States Grand Prix,1.0,131.0,1:38.485,201.521,138485.0,Lewis Hamilton
+1064.0,2021.0,Dutch Grand Prix,1.0,131.0,1:11.097,215.654,111097.0,Lewis Hamilton
+1053.0,2021.0,Emilia Romagna Grand Prix,1.0,131.0,1:16.702,230.403,116702.0,Lewis Hamilton
+1056.0,2021.0,Monaco Grand Prix,1.0,131.0,1:12.909,164.769,112909.0,Lewis Hamilton
+1058.0,2021.0,Styrian Grand Prix,1.0,131.0,1:07.058,231.811,107058.0,Lewis Hamilton
+1086.0,2022.0,Hungarian Grand Prix,1.0,131.0,1:21.386,193.787,121386.0,Lewis Hamilton
+1083.0,2022.0,British Grand Prix,1.0,131.0,1:30.510,234.312,130510.0,Lewis Hamilton
+1104.0,2023.0,Monaco Grand Prix,1.0,131.0,1:15.650,158.799,115650.0,Lewis Hamilton
+1110.0,2023.0,Belgian Grand Prix,1.0,131.0,1:47.305,234.978,147305.0,Lewis Hamilton
+18.0,2008.0,Australian Grand Prix,5.0,1.0,1:27.418,218.385,127418.0,Heikki Kovalainen
+20.0,2008.0,Bahrain Grand Prix,5.0,1.0,1:33.193,209.062,133193.0,Heikki Kovalainen
+19.0,2008.0,Malaysian Grand Prix,2.0,2.0,1:35.366,209.244,135366.0,Nick Heidfeld
+27.0,2008.0,German Grand Prix,2.0,2.0,1:15.987,216.7,115987.0,Nick Heidfeld
+16.0,2009.0,Brazilian Grand Prix,17.0,9.0,1:13.733,210.386,113733.0,Mark Webber
+15.0,2009.0,Japanese Grand Prix,17.0,9.0,1:32.569,225.833,132569.0,Mark Webber
+10.0,2009.0,Hungarian Grand Prix,17.0,9.0,1:21.931,192.498,121931.0,Mark Webber
+352.0,2010.0,Japanese Grand Prix,17.0,9.0,1:33.474,223.647,133474.0,Mark Webber
+338.0,2010.0,Australian Grand Prix,17.0,9.0,1:28.358,216.061,128358.0,Mark Webber
+339.0,2010.0,Malaysian Grand Prix,17.0,9.0,1:37.054,205.605,137054.0,Mark Webber
+858.0,2011.0,Abu Dhabi Grand Prix,17.0,9.0,1:42.612,194.854,142612.0,Mark Webber
+859.0,2011.0,Brazilian Grand Prix,17.0,9.0,1:15.324,205.942,115324.0,Mark Webber
+852.0,2011.0,Belgian Grand Prix,17.0,9.0,1:49.883,229.465,149883.0,Mark Webber
+842.0,2011.0,Malaysian Grand Prix,17.0,9.0,1:40.571,198.415,140571.0,Mark Webber
+843.0,2011.0,Chinese Grand Prix,17.0,9.0,1:38.993,198.232,138993.0,Mark Webber
+846.0,2011.0,Monaco Grand Prix,17.0,9.0,1:16.234,157.724,116234.0,Mark Webber
+844.0,2011.0,Turkish Grand Prix,17.0,9.0,1:29.703,214.226,129703.0,Mark Webber
+875.0,2012.0,Korean Grand Prix,17.0,9.0,1:42.037,198.104,142037.0,Mark Webber
+895.0,2013.0,Japanese Grand Prix,17.0,9.0,1:34.587,221.015,134587.0,Mark Webber
+899.0,2013.0,Brazilian Grand Prix,17.0,9.0,1:15.436,205.636,115436.0,Mark Webber
+887.0,2013.0,British Grand Prix,17.0,9.0,1:33.401,227.059,133401.0,Mark Webber
+886.0,2013.0,Canadian Grand Prix,17.0,9.0,1:16.182,206.08,116182.0,Mark Webber
+890.0,2013.0,Hungarian Grand Prix,17.0,9.0,1:24.069,187.603,124069.0,Mark Webber
+2.0,2009.0,Malaysian Grand Prix,18.0,23.0,1:36.641,206.483,136641.0,Jenson Button
+7.0,2009.0,Turkish Grand Prix,18.0,23.0,1:27.579,219.422,127579.0,Jenson Button
+345.0,2010.0,European Grand Prix,18.0,1.0,1:38.766,197.521,138766.0,Jenson Button
+855.0,2011.0,Japanese Grand Prix,18.0,1.0,1:36.568,216.481,136568.0,Jenson Button
+854.0,2011.0,Singapore Grand Prix,18.0,1.0,1:48.454,168.392,148454.0,Jenson Button
+847.0,2011.0,Canadian Grand Prix,18.0,1.0,1:16.956,204.007,116956.0,Jenson Button
+876.0,2012.0,Indian Grand Prix,18.0,1.0,1:28.203,209.176,128203.0,Jenson Button
+860.0,2012.0,Australian Grand Prix,18.0,1.0,1:29.187,214.053,129187.0,Jenson Button
+4.0,2009.0,Bahrain Grand Prix,15.0,7.0,1:34.556,206.049,134556.0,Jarno Trulli
+8.0,2009.0,British Grand Prix,20.0,9.0,1:20.735,229.238,120735.0,Sebastian Vettel
+17.0,2009.0,Abu Dhabi Grand Prix,20.0,9.0,1:40.279,199.387,140279.0,Sebastian Vettel
+12.0,2009.0,Belgian Grand Prix,20.0,9.0,1:47.263,235.07,147263.0,Sebastian Vettel
+348.0,2010.0,Hungarian Grand Prix,20.0,9.0,1:22.362,191.491,122362.0,Sebastian Vettel
+347.0,2010.0,German Grand Prix,20.0,9.0,1:15.824,217.166,115824.0,Sebastian Vettel
+342.0,2010.0,Monaco Grand Prix,20.0,9.0,1:15.192,159.91,115192.0,Sebastian Vettel
+857.0,2011.0,Indian Grand Prix,20.0,9.0,1:27.249,211.463,127249.0,Sebastian Vettel
+856.0,2011.0,Korean Grand Prix,20.0,9.0,1:39.605,202.941,139605.0,Sebastian Vettel
+848.0,2011.0,European Grand Prix,20.0,9.0,1:41.852,191.536,141852.0,Sebastian Vettel
+878.0,2012.0,United States Grand Prix,20.0,9.0,1:39.347,199.772,139347.0,Sebastian Vettel
+877.0,2012.0,Abu Dhabi Grand Prix,20.0,9.0,1:43.964,192.32,143964.0,Sebastian Vettel
+874.0,2012.0,Japanese Grand Prix,20.0,9.0,1:35.774,218.276,135774.0,Sebastian Vettel
+870.0,2012.0,Hungarian Grand Prix,20.0,9.0,1:24.136,187.453,124136.0,Sebastian Vettel
+863.0,2012.0,Bahrain Grand Prix,20.0,9.0,1:36.379,202.151,136379.0,Sebastian Vettel
+866.0,2012.0,Canadian Grand Prix,20.0,9.0,1:15.752,207.249,115752.0,Sebastian Vettel
+891.0,2013.0,Belgian Grand Prix,20.0,9.0,1:50.756,227.657,150756.0,Sebastian Vettel
+898.0,2013.0,United States Grand Prix,20.0,9.0,1:39.856,198.754,139856.0,Sebastian Vettel
+894.0,2013.0,Korean Grand Prix,20.0,9.0,1:41.380,199.388,141380.0,Sebastian Vettel
+893.0,2013.0,Singapore Grand Prix,20.0,9.0,1:48.574,167.94,148574.0,Sebastian Vettel
+885.0,2013.0,Monaco Grand Prix,20.0,9.0,1:16.577,157.018,116577.0,Sebastian Vettel
+883.0,2013.0,Bahrain Grand Prix,20.0,9.0,1:36.961,200.938,136961.0,Sebastian Vettel
+882.0,2013.0,Chinese Grand Prix,20.0,9.0,1:36.808,202.706,136808.0,Sebastian Vettel
+916.0,2014.0,United States Grand Prix,20.0,9.0,1:41.379,195.768,141379.0,Sebastian Vettel
+904.0,2014.0,Spanish Grand Prix,20.0,9.0,1:28.918,188.465,128918.0,Sebastian Vettel
+941.0,2015.0,Russian Grand Prix,20.0,6.0,1:40.071,210.378,140071.0,Sebastian Vettel
+964.0,2016.0,Japanese Grand Prix,20.0,6.0,1:35.118,219.781,135118.0,Sebastian Vettel
+968.0,2016.0,Abu Dhabi Grand Prix,20.0,6.0,1:43.729,192.756,143729.0,Sebastian Vettel
+965.0,2016.0,United States Grand Prix,20.0,6.0,1:39.877,198.712,139877.0,Sebastian Vettel
+980.0,2017.0,Belgian Grand Prix,20.0,6.0,1:46.577,236.583,146577.0,Sebastian Vettel
+986.0,2017.0,Mexican Grand Prix,20.0,6.0,1:18.785,196.666,118785.0,Sebastian Vettel
+985.0,2017.0,United States Grand Prix,20.0,6.0,1:37.766,203.003,137766.0,Sebastian Vettel
+983.0,2017.0,Malaysian Grand Prix,20.0,6.0,1:34.080,212.104,134080.0,Sebastian Vettel
+976.0,2017.0,Azerbaijan Grand Prix,20.0,6.0,1:43.441,208.919,143441.0,Sebastian Vettel
+1009.0,2018.0,Abu Dhabi Grand Prix,20.0,6.0,1:40.867,198.225,140867.0,Sebastian Vettel
+1005.0,2018.0,Japanese Grand Prix,20.0,6.0,1:32.318,226.447,132318.0,Sebastian Vettel
+998.0,2018.0,British Grand Prix,20.0,6.0,1:30.696,233.831,130696.0,Sebastian Vettel
+1022.0,2019.0,Belgian Grand Prix,20.0,6.0,1:46.409,236.957,146409.0,Sebastian Vettel
+1017.0,2019.0,French Grand Prix,20.0,6.0,1:32.740,226.775,132740.0,Sebastian Vettel
+11.0,2009.0,European Grand Prix,10.0,7.0,1:38.683,197.687,138683.0,Timo Glock
+13.0,2009.0,Italian Grand Prix,16.0,10.0,1:24.739,246.106,124739.0,Adrian Sutil
+343.0,2010.0,Turkish Grand Prix,808.0,4.0,1:29.165,215.519,129165.0,Vitaly Petrov
+344.0,2010.0,Canadian Grand Prix,9.0,4.0,1:16.972,203.965,116972.0,Robert Kubica
+871.0,2012.0,Belgian Grand Prix,811.0,3.0,1:52.822,223.488,152822.0,Bruno Senna
+873.0,2012.0,Singapore Grand Prix,807.0,10.0,1:51.033,164.48,151033.0,Nico Hülkenberg
+950.0,2016.0,Chinese Grand Prix,807.0,10.0,1:39.824,196.581,139824.0,Nico Hülkenberg
+862.0,2012.0,Chinese Grand Prix,155.0,15.0,1:39.960,196.314,139960.0,Kamui Kobayashi
+865.0,2012.0,Monaco Grand Prix,815.0,15.0,1:17.296,155.557,117296.0,Sergio Pérez
+881.0,2013.0,Malaysian Grand Prix,815.0,1.0,1:39.199,201.159,139199.0,Sergio Pérez
+907.0,2014.0,Austrian Grand Prix,815.0,10.0,1:12.142,215.874,112142.0,Sergio Pérez
+974.0,2017.0,Monaco Grand Prix,815.0,10.0,1:14.820,160.561,114820.0,Sergio Pérez
+1071.0,2021.0,São Paulo Grand Prix,815.0,9.0,1:11.010,218.453,111010.0,Sergio Pérez
+1061.0,2021.0,British Grand Prix,815.0,9.0,1:28.617,239.317,128617.0,Sergio Pérez
+1089.0,2022.0,Italian Grand Prix,815.0,9.0,1:24.030,248.182,124030.0,Sergio Pérez
+1081.0,2022.0,Azerbaijan Grand Prix,815.0,9.0,1:46.046,203.787,146046.0,Sergio Pérez
+1079.0,2022.0,Spanish Grand Prix,815.0,9.0,1:24.108,200.099,124108.0,Sergio Pérez
+1106.0,2023.0,Canadian Grand Prix,815.0,9.0,1:14.481,210.786,114481.0,Sergio Pérez
+1100.0,2023.0,Australian Grand Prix,815.0,9.0,1:20.235,236.814,120235.0,Sergio Pérez
+864.0,2012.0,Spanish Grand Prix,154.0,208.0,1:26.250,194.295,126250.0,Romain Grosjean
+884.0,2013.0,Spanish Grand Prix,821.0,15.0,1:26.217,194.37,126217.0,Esteban Gutiérrez
+918.0,2014.0,Abu Dhabi Grand Prix,817.0,9.0,1:44.496,191.341,144496.0,Daniel Ricciardo
+939.0,2015.0,Singapore Grand Prix,817.0,9.0,1:50.041,165.701,150041.0,Daniel Ricciardo
+936.0,2015.0,Hungarian Grand Prix,817.0,9.0,1:24.821,185.939,124821.0,Daniel Ricciardo
+931.0,2015.0,Monaco Grand Prix,817.0,9.0,1:18.063,153.891,118063.0,Daniel Ricciardo
+962.0,2016.0,Singapore Grand Prix,817.0,9.0,1:47.187,170.113,147187.0,Daniel Ricciardo
+966.0,2016.0,Mexican Grand Prix,817.0,9.0,1:21.134,190.972,121134.0,Daniel Ricciardo
+959.0,2016.0,German Grand Prix,817.0,9.0,1:18.442,209.918,118442.0,Daniel Ricciardo
+948.0,2016.0,Australian Grand Prix,817.0,9.0,1:28.997,214.51,128997.0,Daniel Ricciardo
+981.0,2017.0,Italian Grand Prix,817.0,9.0,1:23.361,250.174,123361.0,Daniel Ricciardo
+1000.0,2018.0,Hungarian Grand Prix,817.0,9.0,1:20.012,197.115,120012.0,Daniel Ricciardo
+993.0,2018.0,Spanish Grand Prix,817.0,9.0,1:18.441,213.638,118441.0,Daniel Ricciardo
+991.0,2018.0,Chinese Grand Prix,817.0,9.0,1:35.785,204.871,135785.0,Daniel Ricciardo
+989.0,2018.0,Australian Grand Prix,817.0,9.0,1:25.945,222.128,125945.0,Daniel Ricciardo
+1047.0,2020.0,Abu Dhabi Grand Prix,817.0,4.0,1:40.926,198.109,140926.0,Daniel Ricciardo
+1037.0,2020.0,Belgian Grand Prix,817.0,4.0,1:47.483,234.589,147483.0,Daniel Ricciardo
+1065.0,2021.0,Italian Grand Prix,817.0,1.0,1:24.812,245.894,124812.0,Daniel Ricciardo
+915.0,2014.0,Russian Grand Prix,822.0,3.0,1:40.896,208.658,140896.0,Valtteri Bottas
+988.0,2017.0,Abu Dhabi Grand Prix,822.0,131.0,1:40.650,198.652,140650.0,Valtteri Bottas
+984.0,2017.0,Japanese Grand Prix,822.0,131.0,1:33.144,224.439,133144.0,Valtteri Bottas
+1007.0,2018.0,Mexican Grand Prix,822.0,131.0,1:18.741,196.776,118741.0,Valtteri Bottas
+1004.0,2018.0,Russian Grand Prix,822.0,131.0,1:35.861,219.617,135861.0,Valtteri Bottas
+1001.0,2018.0,Belgian Grand Prix,822.0,131.0,1:46.286,237.231,146286.0,Valtteri Bottas
+1008.0,2018.0,Brazilian Grand Prix,822.0,131.0,1:10.540,219.909,110540.0,Valtteri Bottas
+996.0,2018.0,French Grand Prix,822.0,131.0,1:34.225,223.201,134225.0,Valtteri Bottas
+992.0,2018.0,Azerbaijan Grand Prix,822.0,131.0,1:45.149,205.525,145149.0,Valtteri Bottas
+990.0,2018.0,Bahrain Grand Prix,822.0,131.0,1:33.740,207.842,133740.0,Valtteri Bottas
+1029.0,2019.0,Brazilian Grand Prix,822.0,131.0,1:10.698,219.417,110698.0,Valtteri Bottas
+1010.0,2019.0,Australian Grand Prix,822.0,131.0,1:25.580,223.075,125580.0,Valtteri Bottas
+1016.0,2019.0,Canadian Grand Prix,822.0,131.0,1:13.078,214.833,113078.0,Valtteri Bottas
+1040.0,2020.0,Russian Grand Prix,822.0,131.0,1:37.030,216.972,137030.0,Valtteri Bottas
+1036.0,2020.0,Spanish Grand Prix,822.0,131.0,1:18.183,214.343,118183.0,Valtteri Bottas
+1067.0,2021.0,Turkish Grand Prix,822.0,131.0,1:30.432,212.5,130432.0,Valtteri Bottas
+1070.0,2021.0,Mexico City Grand Prix,822.0,131.0,1:17.774,199.223,117774.0,Valtteri Bottas
+1052.0,2021.0,Bahrain Grand Prix,822.0,131.0,1:32.090,211.566,132090.0,Valtteri Bottas
+1054.0,2021.0,Portuguese Grand Prix,822.0,131.0,1:19.865,209.738,119865.0,Valtteri Bottas
+967.0,2016.0,Brazilian Grand Prix,830.0,9.0,1:25.305,181.846,125305.0,Max Verstappen
+987.0,2017.0,Brazilian Grand Prix,830.0,9.0,1:11.044,218.349,111044.0,Max Verstappen
+995.0,2018.0,Canadian Grand Prix,830.0,9.0,1:13.864,212.547,113864.0,Max Verstappen
+994.0,2018.0,Monaco Grand Prix,830.0,9.0,1:14.260,161.772,114260.0,Max Verstappen
+1021.0,2019.0,Hungarian Grand Prix,830.0,9.0,1:17.103,204.552,117103.0,Max Verstappen
+1020.0,2019.0,German Grand Prix,830.0,9.0,1:16.645,214.839,116645.0,Max Verstappen
+1018.0,2019.0,Austrian Grand Prix,830.0,9.0,1:07.475,230.378,107475.0,Max Verstappen
+1041.0,2020.0,Eifel Grand Prix,830.0,9.0,1:28.139,210.267,128139.0,Max Verstappen
+1045.0,2020.0,Bahrain Grand Prix,830.0,9.0,1:32.014,211.741,132014.0,Max Verstappen
+1034.0,2020.0,British Grand Prix,830.0,9.0,1:27.097,243.494,127097.0,Max Verstappen
+1073.0,2021.0,Abu Dhabi Grand Prix,830.0,9.0,1:26.103,220.8,126103.0,Max Verstappen
+1059.0,2021.0,French Grand Prix,830.0,9.0,1:36.404,218.156,136404.0,Max Verstappen
+1051.0,2021.0,Qatar Grand Prix,830.0,9.0,1:23.196,232.799,123196.0,Max Verstappen
+1057.0,2021.0,Azerbaijan Grand Prix,830.0,9.0,1:44.481,206.839,144481.0,Max Verstappen
+1055.0,2021.0,Spanish Grand Prix,830.0,9.0,1:18.149,215.357,118149.0,Max Verstappen
+1060.0,2021.0,Austrian Grand Prix,830.0,9.0,1:06.200,234.815,106200.0,Max Verstappen
+1088.0,2022.0,Dutch Grand Prix,830.0,9.0,1:13.652,208.173,113652.0,Max Verstappen
+1087.0,2022.0,Belgian Grand Prix,830.0,9.0,1:49.354,230.575,149354.0,Max Verstappen
+1078.0,2022.0,Miami Grand Prix,830.0,9.0,1:31.361,213.255,131361.0,Max Verstappen
+1077.0,2022.0,Emilia Romagna Grand Prix,830.0,9.0,1:18.446,225.281,118446.0,Max Verstappen
+1084.0,2022.0,Austrian Grand Prix,830.0,9.0,1:07.275,231.063,107275.0,Max Verstappen
+1108.0,2023.0,British Grand Prix,830.0,9.0,1:30.275,234.922,130275.0,Max Verstappen
+1107.0,2023.0,Austrian Grand Prix,830.0,9.0,1:07.012,231.97,107012.0,Max Verstappen
+1105.0,2023.0,Spanish Grand Prix,830.0,9.0,1:16.330,219.641,116330.0,Max Verstappen
+1099.0,2023.0,Saudi Arabian Grand Prix,830.0,9.0,1:31.906,241.838,131906.0,Max Verstappen
+1109.0,2023.0,Hungarian Grand Prix,830.0,9.0,1:20.504,195.91,120504.0,Max Verstappen
+1102.0,2023.0,Miami Grand Prix,830.0,9.0,1:29.708,217.184,129708.0,Max Verstappen
+952.0,2016.0,Spanish Grand Prix,826.0,5.0,1:26.948,192.735,126948.0,Daniil Kvyat
+1003.0,2018.0,Singapore Grand Prix,825.0,210.0,1:41.905,178.86,141905.0,Kevin Magnussen
+1024.0,2019.0,Singapore Grand Prix,825.0,210.0,1:42.301,178.168,142301.0,Kevin Magnussen
+1028.0,2019.0,United States Grand Prix,844.0,6.0,1:36.169,206.374,136169.0,Charles Leclerc
+1027.0,2019.0,Mexican Grand Prix,844.0,6.0,1:19.232,195.557,119232.0,Charles Leclerc
+1011.0,2019.0,Bahrain Grand Prix,844.0,6.0,1:33.411,208.575,133411.0,Charles Leclerc
+1013.0,2019.0,Azerbaijan Grand Prix,844.0,6.0,1:43.009,209.795,143009.0,Charles Leclerc
+1076.0,2022.0,Australian Grand Prix,844.0,6.0,1:20.260,236.74,120260.0,Charles Leclerc
+1075.0,2022.0,Saudi Arabian Grand Prix,844.0,6.0,1:31.634,242.556,131634.0,Charles Leclerc
+1074.0,2022.0,Bahrain Grand Prix,844.0,6.0,1:34.570,206.018,134570.0,Charles Leclerc
+1012.0,2019.0,Chinese Grand Prix,842.0,9.0,1:34.742,207.126,134742.0,Pierre Gasly
+1015.0,2019.0,Monaco Grand Prix,842.0,9.0,1:14.279,161.73,114279.0,Pierre Gasly
+1062.0,2021.0,Hungarian Grand Prix,842.0,213.0,1:18.394,201.183,118394.0,Pierre Gasly
+1046.0,2020.0,Sakhir Grand Prix,847.0,131.0,0:55.404,230.214,55404.0,George Russell
+1095.0,2022.0,Brazilian Grand Prix,847.0,131.0,1:13.785,210.237,113785.0,George Russell
+1094.0,2022.0,Mexico City Grand Prix,847.0,131.0,1:20.153,193.31,120153.0,George Russell
+1093.0,2022.0,United States Grand Prix,847.0,131.0,1:38.788,200.902,138788.0,George Russell
+1091.0,2022.0,Singapore Grand Prix,847.0,131.0,1:46.458,171.211,146458.0,George Russell
+1101.0,2023.0,Azerbaijan Grand Prix,847.0,131.0,1:43.370,209.062,143370.0,George Russell
+1044.0,2020.0,Turkish Grand Prix,846.0,1.0,1:36.806,198.508,136806.0,Lando Norris
+1031.0,2020.0,Austrian Grand Prix,846.0,1.0,1:07.475,230.378,107475.0,Lando Norris
+1066.0,2021.0,Russian Grand Prix,846.0,1.0,1:37.423,216.096,137423.0,Lando Norris
+1096.0,2022.0,Abu Dhabi Grand Prix,846.0,1.0,1:28.391,215.085,128391.0,Lando Norris
+1080.0,2022.0,Monaco Grand Prix,846.0,1.0,1:14.693,160.834,114693.0,Lando Norris
+1032.0,2020.0,Styrian Grand Prix,832.0,1.0,1:05.619,236.894,105619.0,Carlos Sainz
+1085.0,2022.0,French Grand Prix,832.0,6.0,1:35.781,219.575,135781.0,Carlos Sainz
+1082.0,2022.0,Canadian Grand Prix,832.0,6.0,1:15.749,207.258,115749.0,Carlos Sainz
+1092.0,2022.0,Japanese Grand Prix,855.0,51.0,1:44.411,200.22,144411.0,Guanyu Zhou
+1098.0,2023.0,Bahrain Grand Prix,855.0,51.0,1:33.996,207.276,133996.0,Guanyu Zhou

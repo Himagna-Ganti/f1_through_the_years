@@ -1,0 +1,20 @@
+index,circuitId,name,country,lat,lng,continent
+6,7,Circuit Gilles Villeneuve,Canada,45.5,-73.5228,Americas
+17,18,Autódromo José Carlos Pace,Brazil,-23.7036,-46.6997,Americas
+18,19,Indianapolis Motor Speedway,USA,39.795,-86.2347,Americas
+22,80,Las Vegas Strip Street Circuit,United States,36.1147,-115.173,Americas
+24,25,Autódromo Juan y Oscar Gálvez,Argentina,-34.6943,-58.4593,Americas
+31,32,Autódromo Hermanos Rodríguez,Mexico,19.4042,-99.0907,Americas
+32,33,Phoenix street circuit,USA,33.4479,-112.075,Americas
+35,36,Autódromo Internacional Nelson Piquet,Brazil,-22.9756,-43.395,Americas
+36,37,Detroit Street Circuit,USA,42.3298,-83.0401,Americas
+41,42,Fair Park,USA,32.7774,-96.7587,Americas
+42,43,Long Beach,USA,33.7651,-118.189,Americas
+43,44,Las Vegas Street Circuit,USA,36.1162,-115.174,Americas
+45,46,Watkins Glen,USA,42.3369,-76.9272,Americas
+47,48,Mosport International Raceway,Canada,44.0481,-78.6756,Americas
+51,52,Circuit Mont-Tremblant,Canada,46.1877,-74.6099,Americas
+59,60,Riverside International Raceway,USA,33.937,-117.273,Americas
+62,63,Sebring International Raceway,USA,27.4547,-81.3483,Americas
+68,69,Circuit of the Americas,USA,30.1328,-97.6411,Americas
+76,79,Miami International Autodrome,USA,25.9581,-80.2389,Americas
