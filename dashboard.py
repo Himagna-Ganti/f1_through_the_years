@@ -19,27 +19,39 @@ warnings.filterwarnings('ignore')
 #pio.renderers.default = 'browser'
 st.set_page_config(page_title="F1 through the years", page_icon=":bar_chart:",layout="wide")
 
-opt= option_menu(menu_title=None,icons=['','',''],options=['Home','First Vis','Second Vis','Third Vis', 'Fourth Vis'],orientation='horizontal',default_index=0,styles={"container":{"padding":"40px",'margin-top':'10px'}})
+opt= option_menu(menu_title=None,icons=['','',''],options=['HOME','AROUND THE WORLD IN 20 RACES','FASTEST FRONT-RUNNERS','GOAT', 'WHO-WHEN-WHERE'],orientation='horizontal',default_index=0,styles={"container":{"padding":"40px",'margin-top':'10px'}})
 
 
 
-if opt=='Home':
+if opt=='HOME':
     st.markdown('# :red[F1 THROUGH THE YEARS]')
     st.markdown('---')
-    st.markdown('##### This visualisation aims at extracting useful information from datasets pertaining to F1 races and displays them using various interactive various visualisations.  The reason this project exists is to show some key facts about F1 for anyone who needs immediate access to these stats. There are mainly 3 visualisations at the moment that are up and running in real time for you to explore.  ')
+    st.markdown('##### This visualisation aims at extracting useful information from datasets pertaining to F1 races and displays them using various interactive various visualisations.  The reason this project exists is to show some key facts about F1 for anyone who needs immediate access to these stats. There are mainly 4 visualisations at the moment that are up and running in real time for you to explore.  ')
     st.markdown('##')
-    st.markdown('#### :red[AROUND THE WORLD IN 20 RACES]:')
+    st.markdown('#### Overview of the Dataset:')
+    
+    st.markdown('##### The dataset is a culmination of 14 csv files with various data fields. The main data fields that have been extracted and cleaned are Driver Names, Race Wins, Race track coordinates, LapTimings of different circuits, and Team names.   ')
+    st.markdown('##')
+
+    st.markdown('#### :red[AROUND THE WORLD IN 20 RACES:]')
     st.markdown('##### This visualisation tries to tell the story of the extreme logistics involved in F1, wherein there are races in 6 of the 7 continents every year spanning about 19-20 races which is where the name of the visualisation comes from. ')
     st.markdown('##')
-    st.markdown('#### :red[FASTEST FRONT-RUNNERS]:')
+    st.markdown('#### :red[FASTEST FRONT-RUNNERS:]')
     st.markdown('##### F1 is the pinnacle of motorsporting. The speeds touched by an F1 machine are like any other and the cars are only getting better and better. This visualisation shows you how the __fastest__ __lap__ __times__ of a particular race track has changed over the years.  ')
     st.markdown('##')
-    st.markdown('#### :red[GOAT]:')
+    st.markdown('#### :red[GOAT:]')
     st.markdown('##### Not just Greatest of all time but also Greatest of a specified time. This visualisation queries the number of wins secured by a particular driver in a given time period and displays the top 5 drivers of that time period.')
-elif opt=='First Vis':
+    st.markdown('##')
+    st.markdown('#### :red[WHO-WHEN-WHERE:]')
+    st.markdown('##### A quick way to get data on "who" won, "when" they won, and "where" they won a race. This visualisation queries the top 5 drivers who finished a race in particular year at a particular circuit. ')
+
+    
+    
+elif opt=='AROUND THE WORLD IN 20 RACES':
 
     st.title("AROUND THE WORLD IN 20 RACES:")
-
+    
+    #st.markdown('##### This visualisation tries to tell the story of the extreme logistics involved in F1, wherein there are races in 6 of the 7 continents every year spanning about 19-20 races which is where the name of the visualisation comes from. ')
     st.markdown('### Tasks accomplished:')
     st.markdown('##### 1. Get an understanding of how F1 races are spread across the world.')
     st.markdown('##### 2. Explore the spread of F1 in a single continent with the countries they are being held in.')
@@ -58,8 +70,9 @@ elif opt=='First Vis':
     Africa= pd.read_csv('f1/circuits/africa.csv')
     Americas= pd.read_csv('f1/circuits/americas.csv')
     dic={'Asia':Asia,'Europe':Europe,'Oceania':Oceania,'Africa':Africa,'Americas':Americas}
-    
-    selected = st.multiselect('', ['Asia', 'Europe','Americas', 'Africa', 'Oceania'],)
+    left, middle, right = st.columns((2, 6, 2))
+    with middle:
+        selected = st.multiselect('', ['Asia', 'Europe','Americas', 'Africa', 'Oceania'],)
 
     if not selected:
         circuits=All_circuits
@@ -72,18 +85,24 @@ elif opt=='First Vis':
     color_chart={'Asia':'#32F706','Oceania':'#06C8F7 ','Europe':'#F706F7','Americas':'#F70606','Africa':'#F7A006'}
 
     fig = px.scatter_mapbox(circuits, lat="lat", lon="lng",hover_name='country', hover_data={'name':True,'lat':False,'lng':False},color='continent',
-                            color_discrete_map=color_chart, zoom=3, height=500, width=500)
+                            color_discrete_map=color_chart, zoom=3, height=800, width=800,
+        ).update_traces(marker={"size": 12,})
                             
     fig.update_layout(mapbox_style="open-street-map")
 
     fig.update_layout(margin={"r":0,"t":0,"l":0,"b":0},)
     fig.update_layout(showlegend=True,legend_font_size=30,font_size=10,height=500,width=800)
-
+    fig.update_layout(hoverlabel=dict(
+                bgcolor="white",
+                font_size=18,
+                font_color="black"
+            ))
+    
     left, middle, right = st.columns((2, 5, 2))
     with middle:
         st.plotly_chart(fig)
 
-elif opt=='Second Vis':
+elif opt=='FASTEST FRONT-RUNNERS':
     #Second Visualisation will start here
 
     st.title("FASTEST FRONT-RUNNERS:")
@@ -120,18 +139,56 @@ elif opt=='Second Vis':
         laptimes_drivers=laptimes_drivers.query(query)
         
         laptimes_drivers=laptimes_drivers.sort_values(by='year')
-        fig = px.line(laptimes_drivers,x='year',y='stringTime',markers=True,hover_data={'fastestLapTime':True, 'stringTime':False,'FullName':True},)
+        fig = px.line(laptimes_drivers,x='year',y='stringTime',width=800, height=500,markers=True,hover_data={'fastestLapTime':True, 'stringTime':False,'FullName':True},)
         fig.update_layout(
-            yaxis=dict(
-                title='',
-                showticklabels=False
-            ),yaxis_title="Fastest Lap Timings",
+            hoverlabel=dict(
+                bgcolor="white",
+                font_size=18,
+                font_color="black"
+            )   
         )
+        fig.update_xaxes(
+        
+        title_text = "Year",
+        title_font = {"size": 20},
+        title_standoff = 25)
+
+        fig.update_yaxes(
+        title_text = "Fastest Lap Timings",
+        title_font = {"size": 20},
+        title_standoff = 25)
+
+
+        fig.update_layout(
+        xaxis=dict(
+            showline=True,
+            showgrid=False,
+            showticklabels=True,
+            linewidth=2,
+            ticks='outside',
+            tickfont=dict(
+                
+                size=18,
+                
+            ),
+        ),
+        yaxis=dict(
+            showgrid=False,
+            zeroline=False,
+            showline=False,
+            showticklabels=False,
+            tickfont=dict(
+                
+                size=18,
+                
+            ),
+        ),)
+        
         left, middle, right = st.columns((1, 5, 1))
         with middle:
             st.plotly_chart(fig)
 
-elif opt=='Third Vis':
+elif opt=='GOAT':
     # 3rd Vis 
 
     st.title("GOAT:")
@@ -145,8 +202,8 @@ elif opt=='Third Vis':
     st.markdown('### Instructions:')
     st.markdown('##### 1. To reduce compute load on the server while starting up, there is a :red[Load Data] button.')
     st.markdown('##### 2. Once the button is clicked the initial chart is rendered with the time-period set to All-time. This can be changed.')
-    st.markdown('##### 3. Upon clicking :red[Time-Range], a slider appears through which user can select a time-range they wish to visualise. ')
-    st.markdown('##### 4. Upon clicking :red[Year], a numeric input box appears where its min value is 2000 and max value is 2022 with a step increase of 1. Users can choose a particular year and its results. ')
+    st.markdown('##### 3. Upon clicking Time-Range, a slider appears through which user can select a time-range they wish to visualise. ')
+    st.markdown('##### 4. Upon clicking Year, a numeric input box appears where its min value is 2000 and max value is 2022 with a step increase of 1. Users can choose a particular year and its results. ')
 
 
     race_results=pd.read_csv('f1/wins/races_drivers.csv')
@@ -213,9 +270,51 @@ elif opt=='Third Vis':
         arr=[]
         for n in drivers_with_colors['hexcode'].head(5):
             arr.append('rgb('+str(n)+')')
+        lul=['#648FFF', '#785EF0', '#DC267F', '#FE6100','#FFB000']
+        fig = px.bar(drivers_with_colors.head(5), y='FullName', x='Wins',color="FullName",hover_data={'FullName':True,'Wins':True,'TeamName':True, 'driverId':False},color_discrete_sequence=lul)
+        fig.update_layout(
+            hoverlabel=dict(
+                bgcolor="white",
+                font_size=18,
+                font_color="black"
+            )   
+        )
+        fig.update_xaxes(
+        
+        title_text = "Wins",
+        title_font = {"size": 20},
+        title_standoff = 25)
 
-        fig = px.bar(drivers_with_colors.head(5), y='FullName', x='Wins',color="FullName",color_discrete_sequence=arr)
-
+        fig.update_yaxes(
+        title_text = "Driver",
+        title_font = {"size": 20},
+        title_standoff = 25)
+        fig.update_layout(
+        xaxis=dict(
+            showline=True,
+            showgrid=False,
+            showticklabels=True,
+            linewidth=2,
+            ticks='outside',
+            tickfont=dict(
+                
+                size=18,
+                
+            ),
+        ),
+        yaxis=dict(
+            showgrid=False,
+            zeroline=False,
+            showline=False,
+            showticklabels=False,
+            tickfont=dict(
+                
+                size=18,
+                
+            ),
+        ),)
+        fig.update_layout(legend = dict(font = dict( size = 18,)),
+                  legend_title = dict(font = dict(size = 18)))
         left, middle, right = st.columns((5, 10, 5))
         with middle:
             st.plotly_chart(fig)
@@ -227,6 +326,17 @@ elif opt=='Third Vis':
 
 
 else:
+
+    st.title("WHO-WHEN-WHERE:")
+
+    st.markdown('### Tasks accomplished:')
+    st.markdown('##### 1. Displays the top 5 drivers who finished a race at a particular circuit in a given year.')
+    st.markdown('##### 2. There is a metric display of the Drivers, the teams they were racing for, and the position they secured in the race.')
+    st.markdown('##')
+    st.markdown('### Instructions:')
+    st.markdown('##### 1. Select the year whose results you want to examine using the numeric input box. The minimum value is 2005 and the max value is 2022.')
+    st.markdown('##### 2. Based on the rendered options in racetracks, select one to display the drivers who finished Top 5.')
+  
 
     race_results=pd.read_csv('f1/fourth/fourth.csv')
     le,me,re=st.columns((10,10,10))
