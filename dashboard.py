@@ -114,7 +114,7 @@ elif opt=='FASTEST FRONT-RUNNERS':
     st.markdown('### Instructions:')
     st.markdown('##### 1. To reduce compute load on the server while starting up, there is a :red[Load Data] button.')
     st.markdown('##### 2. Once the button is clicked the initial chart is rendered with the first datapoint in the csv file. You can choose atmost one race track to see its trend.')
-  
+    st.markdown('##### 3. Hover over points for tooltip. ')
 
 
     load= st.button('Load Data',key=1)
@@ -286,9 +286,10 @@ elif opt=='GOAT':
         title_standoff = 25)
 
         fig.update_yaxes(
-        title_text = "Driver",
+        title_text = "",
         title_font = {"size": 20},
         title_standoff = 25)
+        fig.update_layout(showlegend=False)
         fig.update_layout(
         xaxis=dict(
             showline=True,
@@ -306,7 +307,8 @@ elif opt=='GOAT':
             showgrid=False,
             zeroline=False,
             showline=False,
-            showticklabels=False,
+            showticklabels=True,
+            ticks='outside',
             tickfont=dict(
                 
                 size=18,
